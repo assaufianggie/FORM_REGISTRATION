@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>REGISTRATION FORM</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="container">
+                <h1><u>REGISTRATION FORM </u></h1>
+                <from action="" method="POST">
+                    <table>
+                        <tr>
+                            <td>FIRST NAME</td>
+                            <td><input type="text" name="First_Name" maxlength="30"/></td>
+                        </tr>
+                        <tr>
+                            <td>LAST NAME</td>
+                            <td><input type="text" name="Last_Name" maxlength="30"/></td>
+                        </tr>
+                        <tr>
+                            <td>DATE OF BIRTH</td>
+                            <td><input type="date" name="tanggal"></td>
+                        </tr>
+                        <tr>
+                            <td>GENDER</td>
+                            <td>
+                                Male <input type="radio" name="Gender" value="Male" />
+                                Female <input type="radio" name="Gender" value="Female" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>RELIGION</td>
+                            <td>
+                                <select name="Agama">
+                                    <option value="Islam">Islam</option>
+                                    <option value="Kristen">Christian</option>
+                                    <option value="Hindu">Hindu</option>
+                                    <option value="Budha">Buddha</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>E-MAIL</td>
+                            <td><input type="email" name="email"/></td>
+                        </tr>
+                        <tr>
+                            <td>PASSWORD</td>
+                            <td><input type="password" name="password"/></td>
+                        </tr>
+                        <tr>
+                            <td>MOBILE PHONE</td>
+                            <td><input type="number" name="nohp"></td>
+                        </tr>
+                        <tr>
+                            <td>ADDRESS<br/><br/><br/></td>
+                            <td><textarea name="Address" rows="4" cols="30"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>CITY</td>
+                            <td><input type="text" name="City" maxlength="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>STATE</td>
+                            <td><input type="text" name="City" maxlength="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>COUNTRY</td>
+                            <td><input type="text" name="City" maxlength="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>HOBBIES<br/><br/><br/></td>
+                            <td>
+                                Playing Music<input type="checkbox" name="Hobby_Playing_Music" value="Playing_Music"/>
+                                Singing<input type="checkbox" name="Hobby_Singing" value="Singing"/>
+                                Cycling<input type="checkbox" name="Hobby_Cycling" value="Cycling"/>
+                                Traveling<input type="checkbox" name="Hobby_Traveling" value="Traveling"/>
+                                <br>
+                                <br>
+                                Others<input type="checkbox" name="Hobby_Other" value="Other"><input type="text" name="Other_Hobby" maxlength="30" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>SHORT BIOGRAPHY</td>
+                            <td><textarea name="Biografi" rows="4" cols="30"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button type="submit" name="kirim">Submit</button>
+                                <button type="reset" name="ulang">Reset</button>
+                            </td>
+                        </tr>
+                    </table>
+                </from>
+            </div>
+        </div>
+    </body>
+</html>
